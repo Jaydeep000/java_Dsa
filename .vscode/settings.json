@@ -1,0 +1,10 @@
+{
+    "java.home": "path_to_your_jdk",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "path_to_your_jdk",
+            "default": true
+        }
+    ]
+}

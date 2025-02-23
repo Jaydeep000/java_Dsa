@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DecimalToBinary",
+            "request": "launch",
+            "mainClass": "FunctionsAndMethod.DecimalToBinary"
+        },
+        {
+            "type": "java",
+            "name": "Launch binomialCoff",
+            "request": "launch",
+            "mainClass": "FunctionsAndMethod.binomialCoff"
+        }
+    ]
+}
