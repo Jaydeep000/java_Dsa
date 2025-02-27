@@ -1,9 +1,9 @@
 {
-    "java.home": "path_to_your_jdk",
+    "java.home": "C:\\Program Files\\Java\\jdk-23",
     "java.configuration.runtimes": [
         {
-            "name": "JavaSE-11",
-            "path": "path_to_your_jdk",
+            "name": "JavaSE-11",   
+            "path": "C:\\Program Files\\Java\\jdk-23",
             "default": true
         }
     ]
