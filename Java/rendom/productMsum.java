@@ -1,3 +1,4 @@
+package rendom;
 public class productMsum {
     public static int subtractProductAndSum(int n) {
         int product = 1;

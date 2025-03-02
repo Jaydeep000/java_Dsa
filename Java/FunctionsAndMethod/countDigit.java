@@ -1,3 +1,4 @@
+package FunctionsAndMethod;
 import java.util.*;
 
 public class countDigit {

@@ -1,3 +1,4 @@
+package rendom;
 import java.util.Scanner;
 
 public class secondLeargest {
