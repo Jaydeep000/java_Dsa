@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "Practice.allSORT.bubblesort",
+            "projectName": "vsCODE_99cf73e5"
+        },
+        {
+            "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "Java.Practice.allSORT.bubblesort",
+            "projectName": "vsCODE_99cf73e5"
+        },
+        {
+            "type": "java",
             "name": "Launch DecimalToBinary",
             "request": "launch",
             "mainClass": "FunctionsAndMethod.DecimalToBinary"
