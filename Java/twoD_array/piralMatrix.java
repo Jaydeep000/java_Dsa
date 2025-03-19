@@ -14,17 +14,41 @@ public class piralMatrix {
         }
     }
 
-    // ✅ Function to print matrix in Spiral Order
-    public static void spiralMat(int[][] matrix) {
+     public static void spiralMat(int[][] mat) {
         int startRow = 0, startCol = 0;
-        int endRow = matrix.length - 1;
-        int endCol = matrix[0].length - 1;
+        int endRow = mat.length - 1;
+        int endCol = mat[0].length - 1;
 
-        System.out.println("Spiral Order:");
-        while(startRow<=endRow && startCol<=endCol){
-            7
+        while (startRow <= endRow && startCol <= endCol) {
+            // left to right
+            for (int col = startCol; col <= endCol; col++) {
+                System.out.print(mat[startRow][col] + " ");
+            }
+            startRow++;
+
+            // top to bottom
+            for (int row = startRow; row <= endRow; row++) {
+                System.out.print(mat[row][endCol] + " ");
+            }
+            endCol--;
+
+            // right to left
+            if (startRow <= endRow) {
+                for (int col = endCol; col >= startCol; col--) {
+                    System.out.print(mat[endRow][col] + " ");
+                }
+                endRow--;
+            }
+
+            // bottom to top
+            if (startCol <= endCol) {
+                for (int row = endRow; row >= startRow; row--) {
+                    System.out.print(mat[row][startCol] + " ");
+                }
+                startCol++;
+            }
         }
-       
+        System.out.println();
     }
 
 
